@@ -1,0 +1,6 @@
+Em um sistema de gerenciamento de veículos para uma locadora, classes concretas são usadas para detalhar veículos específicos, 
+como um carro específico da linha, com atributos e métodos detalhados e prontos para serem instanciados, como parte final do processo de modelagem de veículos. 
+Classes abstratas agem como moldes iniciais no processo de desenvolvimento, para grupos de veículos que compartilham características, como "Elétricos" ou "Esportivos", 
+definindo atributos e métodos comuns, mas deixando a implementação de alguns métodos para as subclasses. Interfaces entram como contratos 
+intermediários, estabelecendo métodos obrigatórios como 'ligarMotor', permitindo que diferentes categorias de veículos, tais como motos e carros, 
+tenham a liberdade de implementá-los de maneiras distintas, mantendo a uniformidade onde o sistema exige interoperabilidade entre as diversas categorias de veículos.
